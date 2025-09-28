@@ -14,8 +14,7 @@ behavioural-neural-networks/
 ├── traditional_ml_models.py                # Traditional ML models script
 ├── deep_learning_models.py                 # Deep learning models script
 ├── results/                                # Output directory for results
-├── extracted_script_clean.py              # Original incomplete script (deprecated)
-├── LSTM_GRU_experiments.ipynb             # Original notebook (deprecated)
+├── requirements.txt                        # Python dependencies
 └── README.md                               # This file
 ```
 
@@ -52,7 +51,12 @@ The data consists of CSV files in the `Pigeon Samples Used for Experiments/` dir
 
 ### Prerequisites
 
-Install required dependencies:
+Install required dependencies using pip:
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
 ```bash
 pip install pandas numpy scikit-learn tensorflow matplotlib seaborn
 ```
@@ -131,7 +135,7 @@ Results are saved in the `results/` directory:
 
 ## Citation
 
-If you use this code in your research, please cite the original work and this repository.
+If you use this code in your research, please cite the original work and this repository (under review).
 
 ## License
 
